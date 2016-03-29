@@ -37,7 +37,8 @@ public class MainActivity extends Activity {
                 service.getList("", "", new Callback<ResponseList>() {
                     @Override
                     public void onResponse(Response<ResponseList> response, Retrofit retrofit) {
-                        Log.i("lxm","response");
+                        Log.i("lxm","response");///
+                        ///
                     }
 
                     @Override
