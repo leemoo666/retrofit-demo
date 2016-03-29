@@ -39,6 +39,8 @@ public class MainActivity extends Activity {
                     public void onResponse(Response<ResponseList> response, Retrofit retrofit) {
                         Log.i("lxm","response");///
                         ///
+                        Log.i("lxm","response");
+                        Log.i("","");
                     }
 
                     @Override
@@ -49,6 +51,7 @@ public class MainActivity extends Activity {
 
             }
         });
+        /****/
 ////////////////////
         ////////////////
         //****/
